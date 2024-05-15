@@ -1,0 +1,120 @@
+@media screen and (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+  .home {
+    .navbar {
+      background-color: rgba(218, 193, 193, 0.545);
+      padding: 0px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .nav-img {
+        width: 40%;
+
+        .home-img {
+          width: 100%;
+          margin-left: 0px;
+        }
+      }
+
+      .nav-links {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 0px;
+
+        ul {
+          display: none;
+        }
+        .fa-bars {
+          display: block;
+          color: white;
+          margin-left: auto;
+        }
+      }
+    }
+  }
+  .home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0%;
+    height: 100%;
+  }
+
+  .section-1 {
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+    .section-1-img {
+      width: 100%;
+    }
+    .section-1-content {
+      width: 100%;
+      margin-left: 0px;
+    }
+  }
+  .section-2 {
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+    .section-2-img {
+      width: 100%;
+    }
+    .section-2-content {
+      width: 100%;
+      margin-left: 0px;
+    }
+  }
+
+  .section-3-content {
+    display: flex;
+    flex-direction: column;
+
+    .card {
+      width: 100%;
+      margin: 0px;
+    }
+  }
+  .section-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    .section-4-content {
+      width: 100%;
+      margin: 0px;
+
+      .section-4-content-lines {
+        font-size: smaller;
+      }
+    }
+    .section-4-map {
+      width: 100%;
+      margin: 0px;
+    }
+  }
+  .section-5-top {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    .section-5-top-info {
+      width: 100%;
+      margin: 0px;
+    }
+  }
+  .section-5-footer-links {
+    margin-left: 0px;
+    margin: auto;
+    width: 70%;
+  }
+}

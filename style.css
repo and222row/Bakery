@@ -1,0 +1,317 @@
+body {
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Home */
+
+.home {
+  background-image: url("Bakery_images/images/Home.jpg");
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  color: white;
+}
+.home .navbar {
+  padding-top: 20px;
+  position: relative;
+  width: 100%;
+  top: 0px;
+  color: white;
+}
+
+.nav-img {
+  display: inline-block;
+}
+.home-img {
+  width: 200px;
+  margin-left: 200px;
+}
+.nav-links ul {
+  margin-top: 10px;
+}
+
+.nav-links {
+  display: inline-block;
+  width: 47%;
+  margin-left: 251px;
+  margin-right: 0px;
+  /* width: fit-content; */
+  vertical-align: top;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+li {
+  float: left;
+  list-style: none;
+  margin: 2%;
+  letter-spacing: 1px;
+}
+.float-fix {
+  clear: both;
+}
+.home-content {
+  width: 50vw;
+  margin: auto;
+  text-align: center;
+  margin-top: -5%;
+  font-size: 25px;
+  padding: 15%;
+}
+.btn {
+  width: 160px;
+  margin: 10px;
+  padding: 10px;
+  font-size: large;
+}
+.btn:hover {
+  background-color: azure;
+  color: rgb(32, 31, 31);
+}
+.btn-contact {
+  background-color: transparent;
+  color: white;
+}
+.btn-learn {
+  background-color: rgb(245, 184, 92);
+  color: white;
+}
+
+/* Section-1 */
+
+.section-1 {
+  margin: 130px;
+}
+.section-1-img {
+  display: inline-block;
+  width: 40%;
+}
+.section-1 img {
+  width: 100%;
+}
+.section-1-content {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+  margin-left: 5%;
+  color: rgb(82, 80, 80);
+  margin-top: 20px;
+}
+.section-1-content p {
+  letter-spacing: 1px;
+  /* width: 709px; */
+  line-height: 1.5;
+}
+.section-1-content h3 {
+  font-size: 30px;
+}
+.section-1-content-lines img {
+  width: 40px;
+  display: inline-block;
+}
+.section-1-content-lines p {
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+
+/* section-2 */
+
+.section-2 {
+  background-color: rgb(241, 237, 237);
+  padding: 20px;
+}
+.section-2-content {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+  margin-left: 8%;
+  color: rgb(82, 80, 80);
+  margin-top: 10%;
+}
+.section-2-img {
+  display: inline-block;
+  width: 40%;
+  padding: 5%;
+}
+.section-2 img {
+  width: 90%;
+}
+.section-2-content p {
+  letter-spacing: 1px;
+  /* width: 709px; */
+  line-height: 1.5;
+}
+.section-2-content h3 {
+  font-size: 30px;
+}
+
+/* Section-3 */
+
+.section-3 {
+  padding: 20px;
+  text-align: center;
+  color: rgb(82, 80, 80);
+}
+.section-3-top {
+  margin: 3%;
+  letter-spacing: 1px;
+  /* width: 709px; */
+  line-height: 1.5;
+  font-size: 20px;
+}
+.section-3-content {
+  margin-bottom: 3%;
+}
+.card {
+  float: left;
+  width: 25%;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+.card img {
+  width: 100%;
+}
+.section-3-content p {
+  letter-spacing: 1px;
+  /* width: 709px; */
+  line-height: 1.5;
+}
+.section-3-content h3 {
+  font-size: 30px;
+}
+
+/* section-4 */
+
+.section-4 {
+  background-color: rgb(241, 237, 237);
+  padding: 7%;
+}
+.section-4-map {
+  display: inline-block;
+  width: 40%;
+  margin-left: 10%;
+}
+.section-4 iframe {
+  width: 100%;
+}
+.section-4-content {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+  margin-left: 5%;
+  color: rgb(82, 80, 80);
+  margin-top: 10px;
+}
+.section-4-content p {
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+.section-4-content h3 {
+  font-size: 30px;
+  margin-top: 0px;
+}
+.section-4-content-lines img {
+  width: 40px;
+  display: inline-block;
+  background-color: rgb(82, 80, 80);
+  border-radius: 50%;
+  margin-right: 2%;
+}
+.section-4-content-lines p {
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+
+/* section-5 */
+
+.section-5-top {
+  background-color: rgb(126, 120, 120);
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.section-5-top-info {
+  float: left;
+  width: 20%;
+  margin: 2%;
+}
+.section-5-top-info h4 {
+  color: white;
+}
+.section-5-top-info img {
+  width: 25px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+.section-5-top-info p {
+  display: inline-block;
+  vertical-align: text-bottom;
+  line-height: 1.5;
+  color: rgb(219, 215, 215);
+}
+.contact-details {
+  background-image: url("Bakery_images/images/contact-details-map.png");
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.link:hover {
+  color: white;
+  cursor: pointer;
+}
+hr {
+  border: 1px solid rgb(151, 151, 151);
+  width: 90%;
+}
+.section-5-footer {
+  background-color: rgb(49, 45, 45);
+  text-align: center;
+  color: rgb(219, 215, 215);
+}
+.section-5-footer-content {
+  padding: 3%;
+}
+.section-5-footer-links {
+  margin-left: 39%;
+}
+
+.section-5-footer-links ul li img {
+  width: 40px;
+  background-color: rgb(92, 89, 89);
+  border-radius: 50%;
+}
+.section-5-footer-links ul li {
+  float: left;
+  list-style: none;
+  margin: 1%;
+}
+.section-5-footer-links ul li img:hover {
+  background-color: rgb(78, 70, 199);
+  color: white;
+  cursor: pointer;
+}
+
+/* sidebar */
+.sidebar {
+  background-color: rgba(255, 255, 255, 0.767);
+  position: fixed;
+  right: 0px;
+  top: 43%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.sidebar img {
+  width: 50px;
+}
+.sidebar img:hover {
+  cursor: pointer;
+  background-color: rgb(89, 89, 236);
+}
+
+.fa-bars {
+  display: none;
+}
